@@ -154,6 +154,20 @@ pub mod dedupe_config_program_signers {
     solana_sdk::declare_id!("8kEuAshXLsgkUEdcFVLqrjCGGHVWFW99ZZpxvAzzMtBp");
 }
 
+
+pub mod timestamp_correction {
+    solana_sdk::declare_id!("Bki2J33Mr1kZ6ozrqzd7w4j1eK7jeUeSKJBGttDSYwNK");
+}
+
+pub mod timestamp_bounding {
+    solana_sdk::declare_id!("FmFhFzszHFPJYFuqKhGtijwUL7h43d6FrQn7RUrbqYRC");
+}
+
+pub mod warp_timestamp {
+    solana_sdk::declare_id!("BJHdqjFAorV7KKRkZTbYGDkDF2ncnheM3a6ZpUeXe5nM");
+}
+
+
 lazy_static! {
     /// Map of feature identifiers to user-visible description
     pub static ref FEATURE_NAMES: HashMap<Pubkey, &'static str> = [

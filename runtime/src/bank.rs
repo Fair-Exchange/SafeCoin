@@ -20,7 +20,7 @@ use crate::{
     rent_collector::RentCollector,
     stake_weighted_timestamp::{
         calculate_stake_weighted_timestamp, MaxAllowableDrift, MAX_ALLOWABLE_DRIFT_PERCENTAGE,
-        MAX_ALLOWABLE_DRIFT_PERCENTAGE_FAST, MAX_ALLOWABLE_DRIFT_PERCENTAGE_SLOW,
+        MAX_ALLOWABLE_DRIFT_PERCENTAGE_FAST, MAX_ALLOWABLE_DRIFT_PERCENTAGE_SLOW, EstimateType, DEPRECATED_MAX_ALLOWABLE_DRIFT_PERCENTAGE,
     },
     stakes::Stakes,
     status_cache::{SlotDelta, StatusCache},
